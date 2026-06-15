@@ -160,8 +160,14 @@ Add screenshots for:
 
 ## Author
 
-Rajesh K
+## Author
 
-Cybersecurity Enthusiast | Python Developer | Machine Learning Learner
+**RAJESH K**
 
-Mettupalayam, Tamil Nadu, India
+Cybersecurity Professional specializing in Network Security, Threat Detection, Vulnerability Assessment, and Security Automation. Passionate about developing AI-driven security solutions and enhancing organizational cyber resilience through proactive defense strategies.
+
+**Technical Skills:** Python, Linux, Networking, Burp Suite, Nmap, Nessus, Wireshark, Machine Learning
+
+GitHub: https://github.com/rajeshrjjohn
+
+Location: Coimbatore, Tamil Nadu, India
