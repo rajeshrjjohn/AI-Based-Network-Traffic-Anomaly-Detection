@@ -154,9 +154,13 @@ Output Classes:
 Add screenshots for:
 
 1. Dataset preprocessing
+![Dataset Preprocessing](preprocessing.png)
 2. Model training
+![Model Training](training.png)
 3. Detection results
 4. Project folder structure
+![Project folder struture](project_structure.png)
+![project structure](project_structure2.png)
 
 ## Author
 
