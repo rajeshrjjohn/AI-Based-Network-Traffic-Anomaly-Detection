@@ -158,7 +158,7 @@ Output Classes:
 3. Detection results
 ![Detection results](live_detection.png)
 4. Project folder structure
-![Project folder struture](project_structure.png)
+![Project folder structure](project_strutcture2.png)
 
 ## Author
 
