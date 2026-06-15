@@ -10,7 +10,7 @@ df = df.dropna()
 
 encoder = LabelEncoder()
 
-df["protocal"] = encoder.fit_transform(df["protocal"])
+df["protocol"] = encoder.fit_transform(df["protocol"])
 
 X = df.drop("label", axis=1)
 y = df["label"]

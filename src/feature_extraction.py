@@ -11,7 +11,7 @@ for packet in capture:
 	try:
 		data.append({
 			"packet_length": packet.length,
-			"protocal": packet.highest_layer
+			"protocol": packet.highest_layer
 	})
 
 	except:

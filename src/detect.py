@@ -40,7 +40,7 @@ while True:
 
         data = pd.DataFrame(
             [[packet_length, protocol_map[protocol]]],
-            columns=["packet_length", "protocal"]
+            columns=["packet_length", "protocol"]
         )
 
         prediction = model.predict(data)

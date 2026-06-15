@@ -1,7 +1,32 @@
-import pyshark
+from  scapy.all import sniff, ARP, DNS, TCP, UDP, ICMPv6ND_NS
 
-capture = pyshark.LiveCapture(interface='enp0s3')
+def packet_callback(packet):
+    packet_length = len(packet)
 
-for packet in capture.sniff_continuously(packet_count=10):
+    if packet.haslayer(ARP):
+       protocol = "ARP"
 
-	print(packet)
+    elif packet.haslayer(DNS):
+       protocol = "DNS"
+
+    elif packet.haslayer(ICMPv6ND_NS):
+       protocol = "ICMPV6"
+
+    elif packet.haslayer(TCP):
+       protocol = "TCP"
+
+    elif packet.haslayer(UDP):
+       protocol = "UDP"
+
+    else:
+       protocol = "OTHER"
+
+    print("\n--------------------")
+    print(f"\nPacket Length : {packet_length}")
+    print(f"Protocol        : {protocol}")
+    print("--------------------")
+
+print("[+] Starting Packet Extraction...")
+print("[+] Press CTRL+C to stop\n")
+
+sniff(prn=packet_callback, store=False)

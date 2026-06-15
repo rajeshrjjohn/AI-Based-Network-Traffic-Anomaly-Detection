@@ -1,4 +1,4 @@
-packet_length,protocal,label
+packet_length,protocol,label
 169,SSDP,0
 89,MDNS,0
 109,MDNS,0
