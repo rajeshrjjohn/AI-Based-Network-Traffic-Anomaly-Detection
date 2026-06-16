@@ -1,4 +1,29 @@
-# AI Network Traffic Anomaly Detection
+
+# AI-Based Network Traffic Anomaly Detection
+
+## Project Status
+
+✅ Version 1.0 Complete
+
+This project implements machine learning-based network traffic anomaly detection with real-time packet monitoring, alert logging, and reporting features.
+
+### Current Features
+
+- Network traffic preprocessing
+- Random Forest ML model
+- 97.09% detection accuracy
+- Real-time packet capture using Scapy
+- Live anomaly detection
+- Alert logging
+- CSV reporting
+- Ubuntu Linux support
+
+### Future Enhancements
+
+- Advanced web dashboard
+- Additional traffic features
+- Multiple ML algorithms
+- Email alert notifications
 
 ## Overview
 
