@@ -1,4 +1,4 @@
-
+![Status](https://img.shields.io/badge/Status-Version%201.0%20Complete-brightgreen)
 # AI-Based Network Traffic Anomaly Detection
 
 ## Project Status
