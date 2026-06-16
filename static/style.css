@@ -1,0 +1,49 @@
+body{
+    background:#0d1117;
+    color:white;
+    font-family:Arial;
+    margin:30px;
+}
+
+h1{
+    text-align:center;
+    color:#58a6ff;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.card{
+    background:#161b22;
+    padding:20px;
+    border-radius:10px;
+    width:250px;
+    text-align:center;
+}
+
+.card p{
+    font-size:30px;
+    color:#3fb950;
+}
+
+table{
+    width:100%;
+    border-collase:collapse;
+}
+
+th{
+    background:#21262d;
+    padding:10px;
+}
+
+td{
+    padding:0px;
+    border:1px splid #30363d;
+}
+
+tr:nth-child(even){
+    background:3161b22;
+}

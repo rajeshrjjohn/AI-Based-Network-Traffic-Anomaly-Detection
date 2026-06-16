@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Network Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>AI Network Traffic Anomaly Detection Dashboard</h1>
+
+<div class="cardes">
+
+    <div class="card">
+        <h2>Total Alerts</h2>
+        <p>{{ total_alerts }}</p>
+    </div>
+
+
+    <div class="card">
+        <h2>DNS Attacks</h2>
+        <p>{{ dns_attacks }}</p>
+    </div>
+
+    <div class="card">
+        <h2>ARP Attacks</h2>
+        <p>{{ arp_attacks }}</p>
+    </div>
+
+</div>
+
+<h2>Recent Alerts</h2>
+
+<tables>
+
+<try>
+
+    <th>Timestamp</th>
+    <th>Protocol</th>
+    <th>Packet Length</th>
+    <th>Prediction</th>
+</tr>
+
+
+{% for alerts in recent_alerts %}
+<tr>
+    <td>{{ alert.timestamp }}</td>
+    <td>{{ alert.protocol }}</td>
+    <td>{{ alert.packet_length }}</td>
+    <td>{{ alert.prediction }}</td>
+</tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>
